@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.Presentation" >
+        <item name="android:seekBarStyle">@style/Theme.SeekBar</item>
+        <item name="android:buttonStyle">@style/Theme.Button</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    
+    <style name="Theme.SeekBar" parent="@style/Widget.AppCompat.SeekBar.Discrete">
+        <item name="android:progressTint">@color/colorPrimaryDark</item>
+        <item name="tickMark">@drawable/tick_mark</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+        <item name="android:progressBackgroundTint">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="Theme.Button" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
