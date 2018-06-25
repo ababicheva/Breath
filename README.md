@@ -33,8 +33,9 @@ the mobile device screen.
 - Experiment with inhale/exhale and hold durations in seconds to select the most comfortable for you
 - Just breath
 
-![First launch](/screenshots/fisrt_launch.png =480x640)
-![First launch](/screenshots/settings_screen.png =480x640)
+A | B
+- | - 
+![First launch](/screenshots/fisrt_launch.png) | ![First launch](/screenshots/settings_screen.png)
 
 ## License
 
