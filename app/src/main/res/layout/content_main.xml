@@ -53,7 +53,7 @@
         android:layout_gravity="end|bottom"
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
-        android:src="@drawable/ic_settings_white_24dp"
+        android:src="@drawable/ic_settings_white"
         android:visibility="invisible"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"

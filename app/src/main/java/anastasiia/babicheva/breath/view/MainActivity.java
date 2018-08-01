@@ -1,7 +1,5 @@
 package anastasiia.babicheva.breath.view;
 
-import android.animation.Animator;
-import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
